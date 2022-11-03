@@ -1,0 +1,10 @@
+1.__To create a virtual environment, firstly we need to install virtualenv module using 'pip install virtualenv'.
+2.__Write 'virtualenv <virtual_env_name>' in terminal to create a new virtual environment
+3.__Run 'set-exectuionpolicy remotesigned' command to terminal by opening it as administrator. 
+5.__To activate the virtual environment write '.\virtual_env_name\scripts\activate'.
+6.__Now install your desired module for the virtual environment.
+7.__To generate requirements.txt file enter 'pip freeze > requirements.txt' in terminal.
+8.__To install all modules from requirements.txt enter "pip install -r '.\requirements.txt'" command in terminal.
+9.__To deactivate the virtual environment write 'deactivate' in your terminal.
+10.__To copy all system packages to the virtual environment enter 'virtualenv --system-site-packages' command in the terminal.
+11.__To install a specific version of a module enter 'pip install <module_name>==<module_version>'
